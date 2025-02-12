@@ -10,4 +10,3 @@ test("fetchAltText returns AI-generated text", async () => {
   const altText = await fetchAltText("image-url", "test-api-key", "succinct");
   expect(altText).toBe("Sample Alt Text - AI-generated alt text");
 });
-
